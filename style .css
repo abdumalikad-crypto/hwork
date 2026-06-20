@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+ .big-box{
+   display: flex;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  gap: 15px;
+}
+.cash {
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+.cash img {
+  height: 140px;
+  width: 100%;
+}

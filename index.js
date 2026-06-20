@@ -7,13 +7,14 @@ btn.addEventListener('click',() =>{
   .then(res => res.json())
   .then(data=>{
     product.innerHTML = data.products.map(
-      
       product =>`
+       <div class="cash">
        <img src=${product.images}>
 <ul>${product.price}</ul>
 <h1>${product.category}</h1>
         <i>${product.stock}</i>
          <p>${product.discountPercentage}</p>
+            </div>
         ` 
     );
   })
